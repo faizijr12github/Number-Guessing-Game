@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+    <title>Number Guessing Game</title>
+</head>
+
+<body>
+    <div class="container">
+        <h3>I am thinking of a number between 1-100</h3>
+        <h3>Can you guess it?</h3>
+        <div id="inpCon"><input type="text" placeholder="Num" id="guess"><button id="clrbtn"><i
+                    class="bi bi-x-square-fill"></i></button></div>
+        <button onclick="play()" id="mybtn">Guess</button>
+        <p id="message1">No of guesses: 0</p>
+        <p id="message2">Guessed numbers are: None</p>
+        <p id="message3"></p>
+        <button onclick="playAgain()" id="pabtn">Play Again</button>
+    </div>
+</body>
+
+</html>
